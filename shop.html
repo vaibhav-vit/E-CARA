@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ecommerce website</title>
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+    <section id="page-header">
+       
+        <h2>#fashion trends</h2>
+       
+        <p>Save more with coupons & up to 70% off!</p>
+        
+    </section>
+
+    
+
+    <section id="product1" class="section-p1">
+        
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='sproduct.html';">
+                <img src="img/f1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹749</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+        
+
+         <!-- <div class="pro"> -->
+            <div class="pro" onclick="openProduct(2, event)">
+
+                <img src="img/f2.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Terra Cotta Corduroy Overshirt</h5>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹499</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+        
+<!-- 
+         <div class="pro"> -->
+            <div class="pro" onclick="openProduct(3, event)">
+
+                <img src="img/f3.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Galaxy Explorer Graphic Tee</h5>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹549</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+        
+
+         <!-- <div class="pro"> -->
+            <div class="pro" onclick="openProduct(4, event)">
+                <img src="img/f4.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹499</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+        
+
+         <!-- <div class="pro"> -->
+            <div class="pro" onclick="openProduct(5, event)">
+                <img src="img/f5.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Vibrant Wave Resort Shirt</h5>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹699</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+        
+
+         <!-- <div class="pro"> -->
+            <div class="pro" onclick="openProduct(6, event)">
+                <img src="img/f6.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Geometric Sun-Daze Shirt</h5>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹499</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+        
+
+         <!-- <div class="pro"> -->
+            <div class="pro" onclick="openProduct(7, event)">
+                <img src="img/f7.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Oatmeal Relaxed-Fit Pants</h5>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹399</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+        
+
+         <!-- <div class="pro"> -->
+            <div class="pro" onclick="openProduct(8, event)">
+                <img src="img/f8.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Sage Linen Crop Tropy</h5>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹479</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+        
+
+
+
+
+   
+        <div class="pro-container">
+            <!-- <div class="pro"> -->
+                <div class="pro" onclick="openProduct(1, event)">
+
+                <img src="img/n1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Kaleidoscope Summer Resort Shirt</h5>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹349</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+        
+
+         <!-- <div class="pro"> -->
+            <div class="pro" onclick="openProduct(2, event)">
+                <img src="img/n2.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Midnight Rose Tropical Button-Up</h5>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹459</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+        
+
+         <!-- <div class="pro"> -->
+            <div class="pro" onclick="openProduct(3, event)">
+                <img src="img/n3.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Sunset Dual-Tone Corduroy Overshirt</h5>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹549</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+        
+
+         <!-- <div class="pro"> -->
+            <div class="pro" onclick="openProduct(4, event)">
+                <img src="img/n4.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹499</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+        
+
+         <!-- <div class="pro"> -->
+            <div class="pro" onclick="openProduct(5, event)">
+                <img src="img/n5.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Vibrant Wave Resort Shirt</h5>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹699</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+        
+
+         <!-- <div class="pro"> -->
+            <div class="pro" onclick="openProduct(6, event)">
+                <img src="img/n6.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Harbour Grey Seersucker Shorts</h5>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹399</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+        
+
+         <!-- <div class="pro"> -->
+            <div class="pro" onclick="openProduct(7, event)">
+                <img src="img/n7.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Safari Tan Heavy-Cotton Utility Shirt</h5>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹399</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+        
+
+         <!-- <div class="pro"> -->
+            <div class="pro" onclick="openProduct(8, event)">
+                <img src="img/n8.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Charcoal Night Minimalist Short Sleeve</h5>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹479</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+        </section>
+
+   <section id="pagination" class="section-p1">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#"><i class="fas fa-chevron-right"></i></a>
+   </section>
+
+  
+
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>Special offers.</span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Your email address">
+                <button class="normal">Sign Up</button>
+            </div>
+        
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img  class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong> Address:</strong> 71 Nichlaul Road, Itahiya 06 , Maharajganj Uttar-pradesh</p>
+            <p><strong>Phone:</strong> +91 8429294645 / +91 2222 789</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <!-- <i class="fa-brands fa-pinterest-p"></i> -->
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>Account</h4>
+            <a href="#">Sign</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/app.jpg" alt="">
+                <img src="img/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>  @2026, vita31 -Private limited</p>
+        </div>
+    </footer>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
